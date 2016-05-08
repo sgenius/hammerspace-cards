@@ -75,18 +75,5 @@ Puede definirse un tiempo límite para la duración del juego.
 Al final de ese tiempo, el jugador con más puntos de vida es el ganador.
 
 
-## OPCIONAL: Monstruos
-
-Al inicio del primer turno del juego, se inicia un timer por una cantidad de tiempo predeterminada (p. ej.: 10 minutos).
-
-Al final del timer, el jugador en turno, justo antes de finalizar su turno, debe sacar una carta de monstruo y ponerla en medio de la mesa, junto con un número de puntos de vida determinado en la carta.
-
-Acto seguido, debe tirar dos dados. El valor de la suma de los dados corresponderá a la acción que el monstruo hará. 
-
-El monstruo puede: atacar a uno, varios o todos los jugadores de diversas maneras; defenderse; atacar automáticamente a quienes ejecuten cierta acción durante ese turno; etc.
-
-Cada vez que el jugador que sacó al monstruo termine sus turnos, deberá tirar los dados para ver la siguiente acción del monstruo.
-
-Mientras el monstruo está en juego, los jugadores pueden elegir atacar al monstruo. Los ataques "para todos los jugadores" también afectarán al monstruo.
 
 
