@@ -1,5 +1,5 @@
 # Untitled game (working title: Hammerspace)
-For spanish, scroll down
+*En español abajo.*
 
 **For 3 - 6 players**
 
@@ -20,11 +20,12 @@ This is a free-for-all battle where the objective is to be the last player stand
 - Shuffle the main deck and the trait deck, and put them on the table, face down.
 - Each player puts in the table, in front of them and visible to everyone else:
   + 4 cards from the main deck, face up; one of them may be placed face down instead, to hide its contents from the other players.
+    + These cards will be placed in a horizontal line ( [] [] [] [] ). The order of the cards can be important at times.
   + 3 trait cards, of which they discard one. The other two cards are put face up in the table; their effects are valid for this player during the whole game.
   + HP counters, up to 30* points.
 - The player with the highest roll of two die goes first, and then the player at his/her right, and so on.
 
-> * Or another quantity. More initial HP allows for a longer game. 30 HP with four players are good for a 30-40 min. game.
+*Or another quantity. More initial HP allows for a longer game. 30 HP with four players are good for a 30-40 min. game.
 
 ## The cards
 
@@ -72,12 +73,14 @@ Notes on cards have precedence over the rules in this document!
 At any point in time, a player can only have four cards in his/her hand, and at most one of these cards can be face down ("hidden").
 
 - At the beginning of his/her turn, a player can choose to flip up his/her hidden card. This is necessary to use it.
+- Also at the beginning of his/her turn, the player can shuffle his/her cards around, eg. move the leftmost to the center or the right end of the line.
+  + The only other moment when it's permissible to either flip or shuffle one's cards is when getting new cards.
 
 In each turn, the player chooses one of his/her face-up cards and plays its effects. In many cases this will be an attack card, so combat begins.
 
 ### Combat
 
-The player decides who to attack, depending on what the *"Hits: "* text on the card says:
+1. **The player decides who to attack**, depending on what the *"Hits: "* text on the card says:
 
 - *One player*: Any one player.
 - *An adjacent player*: someone sitting at the immediate left or right of the player.
@@ -85,24 +88,33 @@ The player decides who to attack, depending on what the *"Hits: "* text on the c
   + If the player only declares one person to attack, the 2nd. defending player by default is the one sitting at the 1st. defending's right.
 - *All players, even you!*: precisely that. Hope you know what you're doing.
 
-The strength of the attack is the number in the card + the roll of one dice.
+2. **Roll a dice.** The strength of the attack is the number in the card + the roll of the dice.
 
 - Ability cards that affect attacks can be used at this point as well. 
 
-The attacked player(s) defend using all and any face-up cards granting defense of the same type than the attack.
+3. **The attacked player(s) defend** using all and any face-up cards granting defense of the same type than the attack, and rolling another dice.
 
-- The strength of the defense is the sum of all defense points matching the attack type + the roll of one dice.
+- The strength of the defense is the sum of all defense points matching the attack type + the roll of the dice.
 - All type-matching defense cards must be used, until the defense can be made only with cards (ie. not less defense points than attack points). 
   + If there are even more matching defense cards, they do not need to be played.
 
 Attack strength - defense strength = HP lost by the defending player(s). An attack if successful if at least one player lost HP.
 
 ### Using, discarding and renewing cards
-After being used, cards are discarded in a pile and replaced with fresh ones from the deck. 
+After being used, **cards are discarded** in a pile **and replaced** with fresh ones from the deck. 
 
 - Some cards have the legend *"Keep on dice = "*. In that case, before discarding, roll a dice; keep the card if your roll matches one of the numbers listed.
 - If an attack hits many players, wait until everybody has defended and substracted HP before getting your new cards.
-- The order in which players take cards from the deck is unimportant.
+
+**When getting new cards:** 
+
+- You may hold any new cards temporarily in your hand, facing you, while you decide if you're putting it face up or down. All other cards should remain on the table.
+- If you get a card you want to hide, and you already have one hidden card, you may flip the old card face up and put your new card face down on the table.
+- At the moment of putting a card down in the four-card row, it is also possible to shuffle (reorder) these cards. 
+
+It is not allowed to flip cards face up or down, or change the order they are in the row, at any other point during a turn.
+
+The order in which players take cards from the deck is unimportant.
 
 If the players start a turn without usable cards (ie. only have defense cards), they can discard their whole hand and get four new cards, but they lose that turn. 
 
@@ -114,10 +126,13 @@ The last player with remaining HP wins.
 
 Alternately, the player with the most HP after a certain time or a set number of turns wins.
 
+**See also:** [Special Cases](special-cases.md) (warning: spoilers!)
+
 -------------
 
 # Juego sin título (nombre temporal: Hammerspace)
-For English, scroll up
+*For English, scroll up*
+TODO: actualizar esto. En este momento la versión oficial de la documentación es la que está en inglés. Sorry.
 
 **Para 3 - 6 jugadores**
 
@@ -191,13 +206,4 @@ Las cartas solo pueden voltearse al inicio del turno del jugador.
 - Ataque de energía
 	+ Eléctrico
 	+ Plasma
-
-
-## OPCIONAL: Tiempo límite
-
-Puede definirse un tiempo límite para la duración del juego.
-Al final de ese tiempo, el jugador con más puntos de vida es el ganador.
-
-
-
 
