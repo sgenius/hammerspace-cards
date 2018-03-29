@@ -1,4 +1,4 @@
-# Untitled game (working title: Hammerspace)
+# Untitled game (working titles: "Hammerspace" or "Highly Trained Animals")
 *En español abajo.*
 
 **For 3 - 6 players**
@@ -8,26 +8,58 @@ This is a free-for-all battle where the objective is to be the last player stand
 ## Game components
 
 - Deck of ~48 play cards
-- Deck of ~16 trait cards
+- Deck of ~16 trait cards (optional)
 - Two 6-sided die
-- HP (Health Point) counters, in values of 20, 5 and 1 HP each
-  + Red: 20 HP
-  + Yellow: 5 HP
-  + White: 1 HP
+- HP (Health Point) counters, in values of 5 and 1 HP each
+  + Orange counters are worth 5 HP
+  + Yellow counters are worth 1 HP
 
 ## Setup
 
-- Shuffle the main deck and the trait deck, and put them on the table, face down.
-- Each player puts in the table, in front of them and visible to everyone else:
-  + 4 cards from the main deck, face up; one of them may be placed face down instead, to hide its contents from the other players.
-    + These cards will be placed in a horizontal line ( [] [] [] [] ). The order of the cards can be important at times.
-  + 3 trait cards, of which they discard one. The other two cards are put face up in the table; their effects are valid for this player during the whole game.
-  + HP counters, up to 30* points.
+- *Shuffle* the main deck and put it on the table, face down.
+- Each player takes *20 HP* in tokens and *4 cards* that are put face up in a row ( [] [] [] [] ).
+  + One of the cards can be put face down instead, to *hide* it from the other players.
 - The player with the highest roll of two die goes first, and then the player at his/her right, and so on.
 
-*Or another quantity. More initial HP allows for a longer game. 30 HP with four players are good for a 30-40 min. game.
+Note: More initial HP allows for a longer game. 20 HP with four players are good for a 30 min. game.
 
-## The cards
+## Gameplay in brief
+
+You should always have four cards. One of them can be hidden.
+
+There are three main types of cards:
+
+**Attack** cards (red),
+**Defense** cards (blue),
+**Ability** cards (green).
+
+The objective of the game is to drain all other players from their HP while preserving the own; for this, the **attack** cards are used. 
+
+Each **attack** card has a type and subtype, as well as a hit value. Roll a dice and sum that value to attack the players that you want to hit and that the player can hit.
+
+If you get attacked, sum the points of all of your **face up defense** cards that **match** the type and/or subtype of the attack to the roll of a dice. Attack points - defense points = the HP that you lose. 
+
+You can use **abilities** instead of attacking to give yourself a boost.
+
+Discard all cards after using them, except if the card says you can keep it.
+
+You can change the **order** and which card is **hidden** only when your turn starts or when you're getting cards.
+
+On your turn, if you can't or don't want to use any of your cards, you can pass, but you have to replace all your cards with new ones.
+
+Wins the last player with HP remaining.
+
+---
+
+## Gameplay in detail
+
+At any point in time, a player can only have four cards in his/her hand, and at most one of these cards can be face down ("hidden").
+
+- At the beginning of his/her turn, or when getting new cards, the player can: 
+  + Flip his/her hidden card face up - which is needed to use it - and/or flip another card face down.
+  + Change the order of the cards in his/her line.
+
+In each turn, the player chooses one of his/her face-up cards and plays its effects. Playable cards are all attack cards and almost all attribute cards.
 
 ### The main deck
 
@@ -35,56 +67,33 @@ Cards in the main deck come in three flavors: **attack**, **defense** and **abil
 
 Attack and defense cards have types and subtypes, as follows:
 
-- Physical
-  + Melee
-  + Range
-- Chemical
-  + Fire
-  + Ice
-  + Biological
-  + Corrosive
-- Energy
-  + Electric
-  + Plasma
+- Type: Physical
+  + Subtype: Melee
+  + Subtype: Range
+- Type: Chemical
+  + Subtype: Fire
+  + Subtype: Ice
+  + Subtype: Biological
+  + Subtype: Corrosive
+- Type: Energy
+  + Subtype: Electric
+  + Subtype: Plasma
 
 **Attack** cards have always a type and subtype, and a strength. 
 
-For example, a **sword** allows a 5-point *physical: melee* attack.
-
-**Defense** cards can offer protection against one or more types of attack, and can be even more effective against certain subtypes. 
-
-For example: Let's say you have just been attacked with a sword. You have:
-
-- A **chainmail**, which offers **2** point defense against *physical* attacks, plus **1 bonus** point against *physical: melee* attacks, for a total of 3 defense points. 
-- A **bulletproof vest**, that gives **4** points of *physical* defense. (It also gives 4 bonus points against *physical: range* but those won't apply here.)
-
-In total, your cards will give you **2 + 1 + 4 = 7 defense points** against that puny sword!
+**Defense** cards can offer protection against one or more types of attack, and can be even more effective against certain subtypes. They usually have differing strengths for different types of attack. In some cases, the strengths are *negative*, meaning the card's effect is detrimental to you!
 
 **Ability** cards confer many different effects, affect other cards and even change game rules. Ability cards are always optional to use.
 
 Notes on cards have precedence over the rules in this document!
 
-### The trait deck
-
-**Traits** are similar to ability cards, but they apply only to the player holding them, and they're valid during the whole game.
-
-## Gameplay
-
-At any point in time, a player can only have four cards in his/her hand, and at most one of these cards can be face down ("hidden").
-
-- At the beginning of his/her turn, a player can choose to flip up his/her hidden card. This is necessary to use it.
-- Also at the beginning of his/her turn, the player can shuffle his/her cards around, eg. move the leftmost to the center or the right end of the line.
-  + The only other moment when it's permissible to either flip or shuffle one's cards is when getting new cards.
-
-In each turn, the player chooses one of his/her face-up cards and plays its effects. In many cases this will be an attack card, so combat begins.
-
-### Combat
+### In detail: Combat
 
 1. **The player decides who to attack**, depending on what the *"Hits: "* text on the card says:
 
 - *One player*: Any one player.
-- *An adjacent player*: someone sitting at the immediate left or right of the player.
-- *Two players sitting together*: precisely that. Note that in some instances, the player may hit him/herself as well.
+- *An adjacent player*: someone sitting at the immediate left or right of the player. **On two-player games:** players are always adjacent to each other.
+- *Two players sitting together*: precisely that. The player may hit him/herself as well. **On two-player games:** players will hit themselves.
   + If the player only declares one person to attack, the 2nd. defending player by default is the one sitting at the 1st. defending's right.
 - *All players, even you!*: precisely that. Hope you know what you're doing.
 
@@ -94,11 +103,24 @@ In each turn, the player chooses one of his/her face-up cards and plays its effe
 
 3. **The attacked player(s) defend** using all and any face-up cards granting defense of the same type than the attack, and rolling another dice.
 
-- The strength of the defense is the sum of all defense points matching the attack type + the roll of the dice.
-- All type-matching defense cards must be used, until the defense can be made only with cards (ie. not less defense points than attack points). 
-  + If there are even more matching defense cards, they do not need to be played.
+- The strength of the defense is the sum of all defense points matching the attack type + the roll of the dice. *Careful with cards having negative defense points!*
+- All type-matching defense cards **must** be used, until the defense can be made only with cards (ie. not less defense points than attack points). 
+  + If there are even more matching defense cards, they do not need to be played. For example, against a 9 point attack, if both a 10 point defense card and an "infinite" defense card match the attack type, only one of them must be played, at the player's choosing.
 
-Attack strength - defense strength = HP lost by the defending player(s). An attack if successful if at least one player lost HP.
+**Attack strength - defense strength = HP lost by the defending player(s).** An attack if successful if at least one player lost HP.
+
+#### Example
+
+You have a **sword**, which allows for a 5-point *physical: melee* attack to a player either at your left or right. You declare you will attack the player at your left and then roll a dice: it's a 4. Your total attack is **5+4 = 9 points**.
+
+The defending player has two defense cards in his deck:
+
+- A **chainmail**, which offers **2** point defense against *physical* attacks, plus **1 bonus** point against *physical: melee* attacks, for a total of 3 defense points. 
+- A **bulletproof vest**, that gives **4** points of *physical* defense. (It also gives 4 bonus points against *physical: range* but those won't apply here.)
+
+In total, his cards give **2 + 1 + 4 = 7 defense points**. He rolls a dice: it's a 1. That gives **7 + 1 = 8 points**.
+
+Your attack is successful: 9 attack points - 8 defense points = **1 HP** that the defending player loses.
 
 ### Using, discarding and renewing cards
 After being used, **cards are discarded** in a pile **and replaced** with fresh ones from the deck. 
@@ -106,17 +128,20 @@ After being used, **cards are discarded** in a pile **and replaced** with fresh 
 - Some cards have the legend *"Keep on dice = "*. In that case, before discarding, roll a dice; keep the card if your roll matches one of the numbers listed.
 - If an attack hits many players, wait until everybody has defended and substracted HP before getting your new cards.
 
-**When getting new cards:** 
+#### Cards and game flow
+*The following rules are optional and are best for **precise** players or for tournament-like play. In other cases, it's just better to let the players go with the flow.* 
+
+When getting new cards:
 
 - You may hold any new cards temporarily in your hand, facing you, while you decide if you're putting it face up or down. All other cards should remain on the table.
 - If you get a card you want to hide, and you already have one hidden card, you may flip the old card face up and put your new card face down on the table.
-- At the moment of putting a card down in the four-card row, it is also possible to shuffle (reorder) these cards. 
+- At the moment of putting a card down in the four-card row, it is also possible to reorder these cards. 
 
 It is not allowed to flip cards face up or down, or change the order they are in the row, at any other point during a turn.
 
 The order in which players take cards from the deck is unimportant.
 
-If the players start a turn without usable cards (ie. only have defense cards), they can discard their whole hand and get four new cards, but they lose that turn. 
+If the players start a turn without usable cards (ie. only have defense cards), they can discard their whole hand and get four new cards, but they lose that turn.
 
 When the main deck is depleted, shuffle and reuse the cards in the discard pile.
 
@@ -125,6 +150,16 @@ When the main deck is depleted, shuffle and reuse the cards in the discard pile.
 The last player with remaining HP wins. 
 
 Alternately, the player with the most HP after a certain time or a set number of turns wins.
+
+### Optional: Traits (for more experienced players)
+
+To play with traits, shuffle the included "trait" cards at the beginning of the game, putting the pile face down in the table.
+
+Each player then takes three traits and discards two. 
+
+The remaining trait card is put face up in front of them. The abilities in the chosen card can be used by that player during the whole game.
+
+If a trait can, but is not used by a player, and the moment to use it has passed (eg. her/his turn is over), s/he has lost that chance to use the trait.
 
 **See also:** [Special Cases](special-cases.md) (warning: spoilers!)
 
