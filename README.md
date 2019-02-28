@@ -35,7 +35,7 @@ There are three main types of cards:
 
 The objective of the game is to drain all other players from their HP while preserving the own; for this, the **attack** cards are used. 
 
-Each **attack** card has a type and subtype, as well as a hit value. Roll a dice and sum that value to attack the players that you want to hit and that the player can hit.
+Each **attack** card has a type and subtype, as well as a hit value. When attacking, you will sum the card's hit value to the roll of a dice. Those are your attack points.
 
 If you get attacked, sum the points of all of your **face up defense** cards that **match** the type and/or subtype of the attack to the roll of a dice. Attack points - defense points = the HP that you lose. 
 
